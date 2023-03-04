@@ -15,13 +15,13 @@
         <link rel="stylesheet" href="{{ asset('vendors/bootstrap-icons/bootstrap-icons.css') }}">
 
         <!-- Styles -->
-        <link rel="stylesheet" href="{{ mix('css/app.css') }}">
-        <link rel="stylesheet" href="{{ mix('css/bootstrap.css') }}">
-        <link rel="stylesheet" href="{{ mix('css/pages/auth.css') }}">
+        @vite('resources/css/app.css')
+        @vite('resources/css/bootstrap.css')
+        @vite('resources/css/pages/auth.css')
 
 
         <!-- Scripts -->
-        <script src="{{ mix('js/app.js') }}" defer></script>
+        @vite('resources/js/app.js')
     </head>
     <body>
         <div id="auth">

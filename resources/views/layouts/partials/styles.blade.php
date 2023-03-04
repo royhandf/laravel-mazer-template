@@ -7,9 +7,9 @@
 
 
 <!-- Styles -->
-<link rel="stylesheet" href="{{ mix('css/bootstrap.css') }}">
-<link rel="stylesheet" href="{{ mix('css/app.css') }}">
-<link rel="stylesheet" href="{{ mix('css/app-dark.css') }}">
+@vite('resources/css/bootstrap.css')
+@vite('resources/css/app.css')
+@vite('resources/css/app-dark.css')
 
 
 @livewireStyles
